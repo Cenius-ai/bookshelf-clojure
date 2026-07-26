@@ -1,0 +1,7 @@
+.env
+bookshelf.db
+*.class
+target/
+.lein-*
+.cpcache/
+.clj-kondo/
