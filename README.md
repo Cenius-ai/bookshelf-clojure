@@ -84,7 +84,7 @@ _Full guide: [`USAGE.md`](USAGE.md)_
 
 ## Architecture
 
-Clojure application, delivered as a complete, runnable project (43 files). Top-level layout: `resources/`, `src/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
+Clojure application, delivered as a complete, runnable project (30 files). Top-level layout: `resources/`, `src/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
