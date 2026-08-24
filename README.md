@@ -1,6 +1,7 @@
 # Bookshelf — complete Clojure book to-do list example app
 
-**Bookshelf** is a free, open-source book to-do list app built with Clojure. A small server-rendered web application in Clojure (Ring, Compojure, Hiccup) with a SQLite database (next.jdbc). Run it locally, deploy it as a self-hosted to-do list app, or [remix it on cenius.ai](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure) to make it your own — the whole application (code, design, seeded demo data) ships in this repository under the Apache-2.0 license.
+**Bookshelf** gives you two paths: self-host the Apache-2.0-licensed Clojure source as your own to-do list app, or [open it on cenius.ai](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure), describe the changes you want, and receive a new Bookshelf build with full rebrand rights. A small server-rendered web application in Clojure (Ring, Compojure, Hiccup) with a SQLite database (next.jdbc). Everything ships in this repo — no paywall, no hidden features, no separate Bookshelf download.
+
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) ![Stack](https://img.shields.io/badge/Stack-Clojure-3b82f6) [![Built with cenius.ai](https://img.shields.io/badge/Built%20with-cenius.ai-8b5cf6)](https://cenius.ai)
 
@@ -16,17 +17,11 @@ _Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup
 
 ![Bookshelf demo — book to-do list app built with Clojure](.github/media/hero_flagship.gif)
 
-▶ **[Watch the full demo video](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure)** — the complete walkthrough, playing on the project's cenius.ai page · [MP4 file](.github/media/demo.mp4)
+📽 **[Demo video on cenius.ai](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure)** — the complete run-through · [MP4](.github/media/demo.mp4)
 
 ## Screenshots
 
 <img src=".github/media/shot-1.png" width="32%" alt="Bookshelf to-do list app screenshot 1"/> <img src=".github/media/shot-2.png" width="32%" alt="Bookshelf to-do list app screenshot 2"/> <img src=".github/media/shot-3.png" width="32%" alt="Bookshelf to-do list app screenshot 3"/>
-
-## Features
-
-- View all books
-- Add a new book
-- Seed initial books
 
 ## Quick start
 
@@ -82,31 +77,37 @@ A font CSS file is available at `/fonts/fonts.css` when `FONT_CSS_URL` is config
 
 _Full guide: [`USAGE.md`](USAGE.md)_
 
+## Features
+
+- View all books
+- Add a new book
+- Seed initial books
+
 ## Architecture
 
-Clojure application, delivered as a complete, runnable project (30 files). Top-level layout: `resources/`, `src/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
+Everything runs out of the box: a Clojure codebase (30 files). Starting up is just `./install.sh`: it installs what is needed and pre-fills the database so you have data to work with straight away. Top-level layout: `resources/`, `src/`. Installation walkthrough: [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
 ### How do I run Bookshelf on my own server?
 
-Clone this repository and run `./install.sh`, then start the app as described in [`INSTALL.md`](INSTALL.md). Bookshelf is fully self-hostable — no external services are required to try it.
-
-### How can I customize Bookshelf without editing code?
-
-Describe what you want changed on [cenius.ai](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure) — no code editing needed; the platform produces a fresh build you can download and deploy.
+Grab the repo and run `./install.sh` — it handles packages and seed data in one go. After that, [`INSTALL.md`](INSTALL.md) walks you through starting the server. No external accounts required.
 
 ### What is Bookshelf built with?
 
 Clojure. The full source in this repository is exactly what the app runs. Highlights include seed initial books.
 
-### Is Bookshelf free for commercial use?
+### What if I want to add features to Bookshelf without coding?
 
-It is. Apache-2.0 licensing means you can build a product on it, sell it, or use it inside a company with no fees. Details: [LICENSE](LICENSE).
+The easiest route: [visit the project on cenius.ai](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure), tell the platform what to change, and collect the updated build. No source-editing needed.
 
 ### How do I make Bookshelf my own brand?
 
 Absolutely. [Open it on cenius.ai](https://cenius.ai/marketplace/p/bookshelf?ref=gh&utm_campaign=bookshelf-clojure) and remix it there — platform modifications come with full rebrand and relicense rights over your derivative, so the result is entirely yours.
+
+### Can I build a business on Bookshelf?
+
+It is. Apache-2.0 licensing means you can build a product on it, sell it, or use it inside a company with no fees. Details: [LICENSE](LICENSE).
 
 ## License & rebranding
 
